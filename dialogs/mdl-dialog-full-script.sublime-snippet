@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+<button type="button" class="mdl-button show-modal">Show Modal</button>
+<dialog class="mdl-dialog" id="dialog-name">
+    <div class="mdl-dialog__content">
+        <p>
+            Allow this site to improve your experience?
+        </p>
+    </div>
+    <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+        <button type="button" class="mdl-button">Agree</button>
+        <button type="button" class="mdl-button close">Disagree</button>
+    </div>
+</dialog>
+<script>
+    var dialog = document.querySelector('#dialog-name');
+    var showModalButton = document.querySelector('.show-modal');
+    if (! dialog.showModal) {
+      dialogPolyfill.registerDialog(dialog);
+    }
+    showModalButton.addEventListener('click', function() {
+      dialog.showModal();
+    });
+    dialog.querySelector('.close').addEventListener('click', function() {
+      dialog.close();
+    });
+</script>
+]]></content>
+    <tabTrigger>mdl-dialog-full-script</tabTrigger>
+</snippet>
+
+
+
+

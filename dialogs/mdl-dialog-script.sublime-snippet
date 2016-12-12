@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+<button id="show-dialog" type="button" class="mdl-button">Show Dialog</button>
+<dialog class="mdl-dialog" id="dialog-name">
+    <h4 class="mdl-dialog__title">Hey There I am a dialog!</h4>
+    <div class="mdl-dialog__content">
+      <p>
+        Allowing us to improve your site experience.
+      </p>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button type="button" class="mdl-button">Agree</button>
+      <button type="button" class="mdl-button close">Disagree</button>
+    </div>
+</dialog>
+<script>
+    var dialog = document.querySelector('#dialog-name');
+    var showDialogButton = document.querySelector('#show-dialog');
+    if (! dialog.showModal) {
+      dialogPolyfill.registerDialog(dialog);
+    }
+    showDialogButton.addEventListener('click', function() {
+      dialog.showModal();
+    });
+    dialog.querySelector('.close').addEventListener('click', function() {
+      dialog.close();
+    });
+</script>
+]]></content>
+    <tabTrigger>mdl-dialog-script</tabTrigger>
+</snippet>

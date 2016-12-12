@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<button id="show-dialog" type="button" class="mdl-button">Show Dialog</button>
+<dialog class="mdl-dialog" id="dialog-name">
+    <h4 class="mdl-dialog__title">Hey There I am a Full dialog!</h4>
+    <div class="mdl-dialog__content">
+      <p>
+        Allowing us to improve your site experience.
+      </p>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button type="button" class="mdl-button">Agree</button>
+      <button type="button" class="mdl-button close">Disagree</button>
+    </div>
+</dialog>
+]]></content>
+    <tabTrigger>mdl-dialog-full</tabTrigger>
+</snippet>
