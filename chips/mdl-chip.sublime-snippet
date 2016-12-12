@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<span class="mdl-chip">
+    <span class="mdl-chip__text">Basic Chip</span>
+</span>
+]]></content>
+    <tabTrigger>mdl-chip</tabTrigger>
+</snippet>

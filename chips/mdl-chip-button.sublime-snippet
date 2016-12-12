@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<button type="button" class="mdl-chip">
+    <span class="mdl-chip__text">Button Chip</span>
+</button>
+]]></content>
+    <tabTrigger>mdl-chip-button</tabTrigger>
+</snippet>
