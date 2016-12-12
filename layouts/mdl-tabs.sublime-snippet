@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+<!-- Tabs -->
+<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+    <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
+    <a href="#scroll-tab-2" class="mdl-layout__tab">Tab 2</a>
+    <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
+</div>
+<main class="mdl-layout__content">
+    <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+        <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+        <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+        <div class="page-content"><!-- Your content goes here --></div>
+    </section>
+</main>
+]]></content>
+    <tabTrigger>mdl-tabs</tabTrigger>
+</snippet>
+
+

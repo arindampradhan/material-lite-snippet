@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone">2 (4 phone)</div>
+]]></content>
+    <tabTrigger>mdl-cell-phone</tabTrigger>
+</snippet>
