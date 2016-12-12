@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<span class="mdl-badge" data-badge="${1:number}"></span>
+]]></content>
+    <tabTrigger>mdl-badge</tabTrigger>
+</snippet>
