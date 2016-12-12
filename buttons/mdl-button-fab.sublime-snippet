@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<button class="mdl-button mdl-js-button mdl-button--fab">
+  <i class="material-icons">add</i>
+</button>
+]]></content>
+    <tabTrigger>mdl-button-fab</tabTrigger>
+</snippet>
+
+

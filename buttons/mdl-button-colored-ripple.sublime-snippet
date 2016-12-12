@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<button class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect">primary</button>
+]]></content>
+    <tabTrigger>mdl-button-colored-ripple</tabTrigger>
+</snippet>
