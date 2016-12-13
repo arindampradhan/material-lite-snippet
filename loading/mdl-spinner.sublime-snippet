@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<div class="mdl-spinner mdl-js-spinner is-active"></div>
+]]></content>
+    <tabTrigger>mdl-progress-snipper-colored</tabTrigger>
+</snippet>
+
