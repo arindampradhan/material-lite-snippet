@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<ul class="mdl-list">
+  <li class="mdl-list__item">
+      Bryan Cranston
+  </li>
+  <li class="mdl-list__item">
+      Aaron Paul
+  </li>
+  <li class="mdl-list__item">
+      Bob Odenkirk
+  </li>
+</ul>
+]]></content>
+    <tabTrigger>mdl-list</tabTrigger>
+</snippet>
