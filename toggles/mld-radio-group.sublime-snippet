@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+<!-- A group of radio buttons to control camera's Flash setting -->
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="flash1">
+  <input checked class="mdl-radio__button" id="flash1" name="flash" type="radio"
+   value="on">
+  <span class="mdl-radio__label">Always on</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="flash2">
+  <input class="mdl-radio__button" id="flash2" name="flash" type="radio" value="off">
+  <span class="mdl-radio__label">Always off</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="flash3">
+  <input class="mdl-radio__button" id="flash3" name="flash" type="radio" value="auto">
+  <span class="mdl-radio__label">Automatic</span>
+</label>
+]]></content>
+    <tabTrigger>mdl-radio-group</tabTrigger>
+</snippet>
