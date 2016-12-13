@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<div id="tt1" class="icon material-icons">add</div>
+<div class="mdl-tooltip" for="tt1">
+Follow
+</div>
+]]></content>
+    <tabTrigger>mdl-tooltip</tabTrigger>
+</snippet>
