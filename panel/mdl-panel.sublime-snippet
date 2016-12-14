@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<div class="mdl-card mdl-shadow--${5:4}dp">
+    <div class="mdl-card__title mdl-color--${1:primary} mdl-color-text--${2:white}">
+        <h3 class="mdl-card__title-text">${3:Material Lite}</h3>
+    </div>
+    <div class="mdl-card__supporting-text">
+        ${4:Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo}
+    </div>
+</div>
+]]></content>
+    <tabTrigger>mdl-panel</tabTrigger>
+</snippet>
