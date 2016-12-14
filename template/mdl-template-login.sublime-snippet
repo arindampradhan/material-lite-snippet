@@ -1,32 +1,22 @@
 <snippet>
     <content><![CDATA[
-<!--
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
--->
-<div class="mdl-grid">
-  <div class="mdl-cell mdl-cell--4-col"></div>
-  <div class="mdl-cell mdl-cell--4-col">
-    <form class="mdl-dialog">
-      <h1 class="mdl-dialog__title">Login Form</h1>
-      <div class="mdl-dialog__content">
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input type="text" class="mdl-textfield__input" id="name">
-          <label class="mdl-textfield__label" for="name">Name</label>
-        </div>
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input type="email" class="mdl-textfield__input" id="email">
-          <label class="mdl-textfield__label" for="email">Email</label>
-          <span class="mdl-textfield__error">Input is not a valid email adress!</span>
-        </div>
-      </div>
-      <div class="mdl-dialog__actions">
-        <button class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect">Submit</button>
-      </div>
-    </form>
+<form class="mdl-dialog">
+  <h1 class="mdl-dialog__title">Login Form</h1>
+  <div class="mdl-dialog__content">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input type="text" class="mdl-textfield__input" id="name">
+      <label class="mdl-textfield__label" for="name">Name</label>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input type="email" class="mdl-textfield__input" id="email">
+      <label class="mdl-textfield__label" for="email">Email</label>
+      <span class="mdl-textfield__error">Input is not a valid email adress!</span>
+    </div>
   </div>
-</div>
-<!-- <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script> -->
+  <div class="mdl-dialog__actions">
+    <button class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect">Submit</button>
+  </div>
+</form>
 ]]></content>
     <tabTrigger>mdl-template-login</tabTrigger>
 </snippet>

@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+<form class="mdl-dialog">
+  <h1 class="mdl-dialog__title">Contact Form</h1>
+  <div class="mdl-dialog__content mdl-cell mdl-cell--12-col">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input type="text" class="mdl-textfield__input" id="name">
+      <label class="mdl-textfield__label" for="name">Name</label>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input type="email" class="mdl-textfield__input" id="email">
+      <label class="mdl-textfield__label" for="email">Email</label>
+      <span class="mdl-textfield__error">Input is not a valid email adress!</span>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="Subject">
+      <label class="mdl-textfield__label" for="Subject">Subject...</label>
+    </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+      <label class="mdl-textfield__label" for="sample5">Message...</label>
+    </div>
+  </div>
+  <div class="mdl-dialog__actions">
+    <button class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect mdl-button--raised">Submit</button>
+  </div>
+]]></content>
+    <tabTrigger>mdl-template-form</tabTrigger>
+</snippet>
