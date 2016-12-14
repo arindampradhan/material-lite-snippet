@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="${1:♥}">${2:icon_name}</div>
+<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="${1:♥}">${2:mail}</div>
 ]]></content>
     <tabTrigger>mdl-badge-icon</tabTrigger>
 </snippet>
