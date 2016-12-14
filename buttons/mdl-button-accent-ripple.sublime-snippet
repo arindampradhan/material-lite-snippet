@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<button class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect">accent</button>
+<button class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect">${1:accent}</button>
 ]]></content>
     <tabTrigger>mdl-button-accent-ripple</tabTrigger>
 </snippet>

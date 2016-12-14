@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<button class="mdl-button mdl-js-button" disabled>Button</button>
+<button class="mdl-button mdl-js-button" disabled>${1:disable}</button>
 ]]></content>
     <tabTrigger>mdl-button-disable</tabTrigger>
 </snippet>

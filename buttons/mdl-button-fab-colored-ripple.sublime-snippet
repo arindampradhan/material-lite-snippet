@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-  <i class="material-icons">add</i>
+  <i class="material-icons">${1:add}</i>
 </button>
 ]]></content>
     <tabTrigger>mdl-button-fab-colored-ripple</tabTrigger>
