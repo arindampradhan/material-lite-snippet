@@ -1,18 +1,19 @@
 <snippet>
     <content><![CDATA[
-<button id="show-dialog" type="button" class="mdl-button">Show Dialog</button>
-<dialog class="mdl-dialog" id="dialog-name">
-    <h4 class="mdl-dialog__title">Hey There I am a Full dialog!</h4>
+<button id="${1:show-dialog}" type="button" class="mdl-button">${2:Show Dialog}</button>
+<dialog class="mdl-dialog" id="${3:dialog-name}">
+    <h4 class="mdl-dialog__title">${4:Hey There I am a Full dialog!}</h4>
     <div class="mdl-dialog__content">
-      <p>
+      ${5:<p>
         Allowing us to improve your site experience.
-      </p>
+      </p>}
     </div>
     <div class="mdl-dialog__actions">
-      <button type="button" class="mdl-button">Agree</button>
-      <button type="button" class="mdl-button close">Disagree</button>
+      ${6:<button type="button" class="mdl-button">${7:Agree}</button>}
+      ${8:<button type="button" class="mdl-button close">${9:Disagree}</button>}
     </div>
 </dialog>
+<!-- dilog control script here -->
 ]]></content>
     <tabTrigger>mdl-dialog-full</tabTrigger>
 </snippet>

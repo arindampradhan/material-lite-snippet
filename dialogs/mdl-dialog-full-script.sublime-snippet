@@ -1,20 +1,20 @@
 <snippet>
     <content><![CDATA[
-<button type="button" class="mdl-button show-modal">Show Modal</button>
-<dialog class="mdl-dialog" id="dialog-name">
+<button type="button" class="mdl-button ${1:show-modal}">${2:Show Modal}</button>
+<dialog class="mdl-dialog" id="${3:dialog-name}">
     <div class="mdl-dialog__content">
-        <p>
+        ${4:<p>
             Allow this site to improve your experience?
-        </p>
+        </p>}
     </div>
     <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
-        <button type="button" class="mdl-button">Agree</button>
-        <button type="button" class="mdl-button close">Disagree</button>
+        ${5:<button type="button" class="mdl-button">${6:Agree}</button>}
+        ${7:<button type="button" class="mdl-button close">${7:Disagree}</button>}
     </div>
 </dialog>
 <script>
-    var dialog = document.querySelector('#dialog-name');
-    var showModalButton = document.querySelector('.show-modal');
+    var dialog = document.querySelector('#${3:dialog-name}');
+    var showModalButton = document.querySelector('.${1:show-modal}');
     if (! dialog.showModal) {
       dialogPolyfill.registerDialog(dialog);
     }
