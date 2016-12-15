@@ -2,25 +2,25 @@
     <content><![CDATA[
 <!-- Simple list -->
 <style>
-.demo-list-item {
+.${1:demo-list}-item {
   width: 300px;
 }
 </style>
 
-<ul class="demo-list-item mdl-list">
+<ul class="${1:demo-list}-item mdl-list">
   <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      Bryan Cranston
+      ${2:Bryan Cranston}
     </span>
   </li>
   <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      Aaron Paul
+      ${3:Aaron Paul}
     </span>
   </li>
   <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      Bob Odenkirk
+      ${4:Bob Odenkirk}
     </span>
   </li>
 </ul>

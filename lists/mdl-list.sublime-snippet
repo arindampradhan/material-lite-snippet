@@ -2,13 +2,13 @@
     <content><![CDATA[
 <ul class="mdl-list">
   <li class="mdl-list__item">
-      Bryan Cranston
+      ${1:Bryan Cranston}
   </li>
   <li class="mdl-list__item">
-      Aaron Paul
+      ${2:Aaron Paul}
   </li>
   <li class="mdl-list__item">
-      Bob Odenkirk
+      ${3:Bob Odenkirk}
   </li>
 </ul>
 ]]></content>

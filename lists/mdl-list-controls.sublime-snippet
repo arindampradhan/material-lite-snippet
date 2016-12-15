@@ -1,46 +1,46 @@
 <snippet>
     <content><![CDATA[
 <style>
-.demo-list-control {
+.${1:demo-list}-control {
   width: 300px;
 }
 
-.demo-list-radio {
+.${1:demo-list}-radio {
   display: inline;
 }
 </style>
 <!-- List with avatar and controls -->
-<ul class="demo-list-control mdl-list">
+<ul class="${1:demo-list}-control mdl-list">
   <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      <i class="material-icons  mdl-list__item-avatar">person</i>
-      Bryan Cranston
+      <i class="material-icons  mdl-list__item-avatar">${2:person}</i>
+      ${3:Bryan Cranston}
     </span>
     <span class="mdl-list__item-secondary-action">
-      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-1">
-        <input type="checkbox" id="list-checkbox-1" class="mdl-checkbox__input" checked />
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="${4:list-checkbox-1}">
+        <input type="checkbox" id="${4:list-checkbox-1}" class="mdl-checkbox__input" ${5:checked} />
       </label>
     </span>
   </li>
   <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      <i class="material-icons  mdl-list__item-avatar">person</i>
-      Aaron Paul
+      <i class="material-icons  mdl-list__item-avatar">${6:person}</i>
+      ${7:Aaron Paul}
     </span>
       <span class="mdl-list__item-secondary-action">
-        <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-1">
-          <input type="radio" id="list-option-1" class="mdl-radio__button" name="options" value="1" checked />
+        <label class="${1:demo-list}-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="${8:list-option-1}">
+          <input type="radio" id="${8:list-option-1}" class="mdl-radio__button" name="options" value="1" ${9:checked} />
         </label>
     </span>
   </li>
   <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      <i class="material-icons  mdl-list__item-avatar">person</i>
-      Bob Odenkirk
+      <i class="material-icons  mdl-list__item-avatar">${10:person}</i>
+      ${11:Bob Odenkirk}
     </span>
       <span class="mdl-list__item-secondary-action">
-        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-1">
-          <input type="checkbox" id="list-switch-1" class="mdl-switch__input" checked />
+        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="${12:list-switch-1}">
+          <input type="checkbox" id="${12:list-switch-1}" class="mdl-switch__input" ${13:checked} />
         </label>
     </span>
   </li>
