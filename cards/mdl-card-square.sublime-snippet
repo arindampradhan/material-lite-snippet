@@ -1,30 +1,30 @@
 <snippet>
     <content><![CDATA[
-<!-- Image card -->
 <style>
-.demo-card-image.mdl-card {
-  width: 256px;
-  height: 256px;
-  background: url('http://www.asdonline.com/static/content-images/asd_logo_black.jpg') center / cover;
+.${1:demo-card}-square.mdl-card {
+  width: ${2:320px};
+  height: ${2:320px};
 }
-.demo-card-image > .mdl-card__actions {
-  height: 52px;
-  padding: 16px;
-  background: rgba(0, 0, 0, 0.2);
-}
-.demo-card-image__filename {
+.${1:demo-card}-square > .mdl-card__title {
   color: #fff;
-  font-size: 14px;
-  font-weight: 500;
+  background: ${6:url('https://getmdl.io/assets/demos/dog.png') bottom right 15% no-repeat #46B6AC};
 }
 </style>
 
-<div class="demo-card-image mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title mdl-card--expand"></div>
-  <div class="mdl-card__actions">
-    <span class="demo-card-image__filename">Image.jpg</span>
+<div class="${1:demo-card}-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text">${3:Update}</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    ${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.}
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    ${5:View Updates}
+    </a>
   </div>
 </div>
+
 ]]></content>
     <tabTrigger>mdl-card-square</tabTrigger>
 </snippet>

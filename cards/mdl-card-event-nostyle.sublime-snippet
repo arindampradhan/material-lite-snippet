@@ -1,20 +1,20 @@
 <snippet>
     <content><![CDATA[
 <!-- Event card -->
-<div class="demo-card-event mdl-card mdl-shadow--2dp">
+<div class="mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title mdl-card--expand">
     <h4>
-      Featured event:<br>
+      ${1:Featured event:<br>
       May 24, 2016<br>
-      7-11pm
+      7-11pm}
     </h4>
   </div>
   <div class="mdl-card__actions mdl-card--border">
     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      Add to Calendar
+      ${2:Add to Calendar}
     </a>
     <div class="mdl-layout-spacer"></div>
-    <i class="material-icons">event</i>
+    <i class="material-icons">${3:event}</i>
   </div>
 </div>
 ]]></content>
