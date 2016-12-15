@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<span class="mdl-chip mdl-chip--deletable">
-    <span class="mdl-chip__text">Deletable Chip</span>
-    <button type="button" class="mdl-chip__action"><i class="material-icons">cancel</i></button>
-</span>
-]]></content>
-    <tabTrigger>mdl-chip-deletable</tabTrigger>
-</snippet>
