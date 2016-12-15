@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<form class="mdl-dialog">
+<form class="mdl-dialog" ${1:action="#"}>
   <h1 class="mdl-dialog__title">Contact Form</h1>
   <div class="mdl-dialog__content mdl-cell mdl-cell--12-col">
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -22,8 +22,9 @@
     </div>
   </div>
   <div class="mdl-dialog__actions">
-    <button class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect mdl-button--raised">Submit</button>
+    <button ${2:type="submit"} class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect mdl-button--raised">Submit</button>
   </div>
+</form>
 ]]></content>
     <tabTrigger>mdl-template-form</tabTrigger>
 </snippet>

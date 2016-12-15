@@ -2,10 +2,10 @@
     <content><![CDATA[
 <style>
 /*Vertical Tabs*/
-.vertical-mdl-tabs {
+.${1:vertical-mdl}-tabs {
     margin-top: 30px;
 }
-.vertical-mdl-tabs .mdl-tabs__tab-bar {
+.${1:vertical-mdl}-tabs .mdl-tabs__tab-bar {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
@@ -15,7 +15,7 @@
     border-right: 1px solid rgba(10, 11, 49, 0.20);
 }
 
-.vertical-mdl-tabs .mdl-tabs__tab {
+.${1:vertical-mdl}-tabs .mdl-tabs__tab {
     width: 100%;
     height: 35px;
     line-height: 35px;
@@ -23,49 +23,49 @@
     letter-spacing: 2px;
 }
 
-.vertical-mdl-tabs.mdl-tabs.is-upgraded a.mdl-tabs__tab.is-active {
+.${1:vertical-mdl}-tabs.mdl-tabs.is-upgraded a.mdl-tabs__tab.is-active {
     border-right: 2px solid #ED462F;
 }
-.vertical-mdl-tabs.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+.${1:vertical-mdl}-tabs.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
     content: inherit;
     height: 0;
 }
 
-.vertical-mdl-tabs.mdl-tabs.is-upgraded .mdl-tabs__panel.is-active, .mdl-tabs__panel {
+.${1:vertical-mdl}-tabs.mdl-tabs.is-upgraded .mdl-tabs__panel.is-active, .mdl-tabs__panel {
     padding: 0 30px;
 }
 
-.vertical-mdl-tabs.mdl-tabs .mdl-tabs__tab {
+.${1:vertical-mdl}-tabs.mdl-tabs .mdl-tabs__tab {
     text-align: left;
 }
 </style>
-<div class="mdl-tabs vertical-mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+<div class="mdl-tabs ${1:vertical-mdl}-tabs mdl-js-tabs mdl-js-ripple-effect">
   <div class="mdl-grid mdl-grid--no-spacing">
     <div class="mdl-cell mdl-cell--2-col">
       <div class="mdl-tabs__tab-bar">
-        <a href="#tab1-panel" class="mdl-tabs__tab is-active">
+        <a href="#${2:tab1-panel}" class="mdl-tabs__tab is-active">
           <span class="hollow-circle"></span>
-          Tab 1
+          ${3:Tab 1}
         </a>
-        <a href="#tab2-panel" class="mdl-tabs__tab">
+        <a href="#${4:tab2-panel}" class="mdl-tabs__tab">
           <span class="hollow-circle"></span>
-          Tab 2
+          ${5:Tab 2}
         </a>
-        <a href="#tab3-panel" class="mdl-tabs__tab">
+        <a href="#${6:tab3-panel}" class="mdl-tabs__tab">
           <span class="hollow-circle"></span>
-          Tab 3
+          ${7:Tab 3}
         </a>
       </div>
     </div>
     <div class="mdl-cell mdl-cell--10-col">
-      <div class="mdl-tabs__panel is-active" id="tab1-panel">
-        Content 1
+      <div class="mdl-tabs__panel is-active" id="${2:tab1-panel}">
+        ${8:Content 1}
       </div>
-      <div class="mdl-tabs__panel" id="tab2-panel">
-        Content 2
+      <div class="mdl-tabs__panel" id="${4:tab2-panel}">
+        ${9:Content 2}
       </div>
-      <div class="mdl-tabs__panel" id="tab3-panel">
-        Content 3
+      <div class="mdl-tabs__panel" id="${6:tab3-panel}">
+        ${10:Content 3}
       </div>
     </div>
   </div>
