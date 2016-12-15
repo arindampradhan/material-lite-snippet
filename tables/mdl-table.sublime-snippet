@@ -4,24 +4,24 @@
 <table class="mdl-data-table mdl-js-data-table">
   <thead>
     <tr>
-      <th class="mdl-data-table__cell--non-numeric">Name</th>
-      <th class="mdl-data-table__cell--non-numeric">Nickname</th>
-      <th>Age</th>
-      <th class="mdl-data-table__cell--non-numeric">Living?</th>
+      ${1:<th class="mdl-data-table__cell--non-numeric">${2:Name}</th>}
+      ${3:<th class="mdl-data-table__cell--non-numeric">${4:Nickname}</th>}
+      ${5:<th>${6:Age}</th>}
+      ${7:<th class="mdl-data-table__cell--non-numeric">${8:Living?}</th>}
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="mdl-data-table__cell--non-numeric">John Lennon</td>
-      <td class="mdl-data-table__cell--non-numeric">The smart one</td>
-      <td>40</td>
-      <td class="mdl-data-table__cell--non-numeric">No</td>
+      ${9:<td class="mdl-data-table__cell--non-numeric">${10:JohnLennon}</td>}
+      ${11:<td class="mdl-data-table__cell--non-numeric">${12:Thesmart one}</td>}
+      ${13:<td>${14:40}</td>}
+      ${15:<td class="mdl-data-table__cell--non-numeric">${16:No}</td>}
     </tr>
     <tr>
-      <td class="mdl-data-table__cell--non-numeric">Paul McCartney</td>
-      <td class="mdl-data-table__cell--non-numeric">The cute one</td>
-      <td>73</td>
-      <td class="mdl-data-table__cell--non-numeric">Yes</td>
+      ${17:<td class="mdl-data-table__cell--non-numeric">${18:Paul McCartney}</td>}
+      ${19:<td class="mdl-data-table__cell--non-numeric">${20:The cute one}</td>}
+      ${21:<td>${22:73}</td>}
+      ${23:<td class="mdl-data-table__cell--non-numeric">${24:Yes}</td>}
     </tr>
   </tbody>
 </table>
