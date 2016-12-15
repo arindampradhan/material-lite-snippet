@@ -1,17 +1,17 @@
 <snippet>
     <content><![CDATA[
 <!-- Right aligned menu on top of button  -->
-<button id="demo-menu-top-right"
+<button id="${1:demo-menu-top-right}"
         class="mdl-button mdl-js-button mdl-button--icon">
   <i class="material-icons">more_vert</i>
 </button>
 
 <ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect"
-    data-mdl-for="demo-menu-top-right">
-  <li class="mdl-menu__item">Some Action</li>
-  <li class="mdl-menu__item">Another Action</li>
-  <li disabled class="mdl-menu__item">Disabled Action</li>
-  <li class="mdl-menu__item">Yet Another Action</li>
+    data-mdl-for="${1:demo-menu-top-right}">
+  ${2:<li class="mdl-menu__item">${3:Some Action}</li>}
+  ${4:<li class="mdl-menu__item">${5:Another Action}</li>}
+  ${6:<li ${7:disabled} class="mdl-menu__item">${8:Disabled Action}</li>}
+  ${9:<li class="mdl-menu__item">${10:Yet Another Action}</li>}
 </ul>
 ]]></content>
     <tabTrigger>mdl-menu-left-top</tabTrigger>
