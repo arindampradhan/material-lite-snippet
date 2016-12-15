@@ -2,16 +2,16 @@
     <content><![CDATA[
 <!-- Snackbars -->
 
-<button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Snackbar</button>
-<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
-  <div class="mdl-snackbar__text"></div>
-  <button class="mdl-snackbar__action" type="button"></button>
+<button id="${1:demo-show-snackbar}" class="mdl-button mdl-js-button mdl-button--raised" type="button">${2:Show Snackbar}</button>
+<div id="${3:demo-snackbar-example}" class="mdl-js-snackbar mdl-snackbar">
+  ${4:<div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>}
 </div>
 <script>
 (function() {
   'use strict';
-  var snackbarContainer = document.querySelector('#demo-snackbar-example');
-  var showSnackbarButton = document.querySelector('#demo-show-snackbar');
+  var snackbarContainer = document.querySelector('#${3:demo-snackbar-example}');
+  var showSnackbarButton = document.querySelector('#${1:demo-show-snackbar}');
   var handler = function(event) {
     showSnackbarButton.style.backgroundColor = '';
   };
@@ -20,7 +20,7 @@
     showSnackbarButton.style.backgroundColor = '#' +
         Math.floor(Math.random() * 0xFFFFFF).toString(16);
     var data = {
-      message: 'Button color changed.',
+      message: '${5:Button color changed}.',
       timeout: 2000,
       actionHandler: handler,
       actionText: 'Undo'

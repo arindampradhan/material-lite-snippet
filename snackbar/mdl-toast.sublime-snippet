@@ -1,10 +1,11 @@
 <snippet>
     <content><![CDATA[
-<button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Toast</button>
-<div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
-  <div class="mdl-snackbar__text"></div>
-  <button class="mdl-snackbar__action" type="button"></button>
+<button id="${1:demo-show-toast}" class="mdl-button mdl-js-button mdl-button--raised" type="button">${2:Show Toast}</button>
+<div id="${3:demo-toast-exampl}e" class="mdl-js-snackbar mdl-snackbar">
+  ${4:<div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>}
 </div>
+<!-- Your script here -->
 ]]></content>
     <tabTrigger>mdl-toast</tabTrigger>
 </snippet>

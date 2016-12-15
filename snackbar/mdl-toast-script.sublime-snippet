@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
-<button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Toast</button>
-<div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
-  <div class="mdl-snackbar__text"></div>
-  <button class="mdl-snackbar__action" type="button"></button>
+<button id="${1:demo-show-toast}" class="mdl-button mdl-js-button mdl-button--raised" type="button">${2:Show Toast}</button>
+<div id="${3:demo-toast-example}" class="mdl-js-snackbar mdl-snackbar">
+  ${4:<div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>}
 </div>
 <script>
 (function() {
   'use strict';
   window['counter'] = 0;
-  var snackbarContainer = document.querySelector('#demo-toast-example');
-  var showToastButton = document.querySelector('#demo-show-toast');
+  var snackbarContainer = document.querySelector('#${3:demo-toast-example}');
+  var showToastButton = document.querySelector('#${1:demo-show-toast}');
   showToastButton.addEventListener('click', function() {
     'use strict';
     var data = {message: 'Example Message # ' + ++counter};
