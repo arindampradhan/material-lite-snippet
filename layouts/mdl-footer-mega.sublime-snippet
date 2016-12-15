@@ -5,45 +5,45 @@
 
     <div class="mdl-mega-footer__drop-down-section">
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer__heading">Features</h1>
+      <h1 class="mdl-mega-footer__heading">${1:Details}</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Partners</a></li>
-        <li><a href="#">Updates</a></li>
+        ${2:<li><a href="${3:#}">${4:Specs}</a></li>}
+        ${5:<li><a href="${6:#}">$7:Tools}</a></li>}
+        ${8:<li><a href="${9:#}">${10:Resources}</a></li>}
       </ul>
     </div>
 
     <div class="mdl-mega-footer__drop-down-section">
-      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer__heading">Details</h1>
+      ${11:<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">${12:Features}</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">Specs</a></li>
-        <li><a href="#">Tools</a></li>
-        <li><a href="#">Resources</a></li>
-      </ul>
+        ${13:<li><a href="${14:#}">${15:About}</a></li>}
+        ${16:<li><a href="${17:#}">${18:Terms}</a></li>}
+        ${19:<li><a href="${20:#}">${21:Partners}</a></li>}
+        ${22:<li><a href="${23:#}">${24:Updates}</a></li>}
+      </ul>}
     </div>
 
     <div class="mdl-mega-footer__drop-down-section">
-      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer__heading">Technology</h1>
+      ${25:<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">${26:Technology}</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">How it works</a></li>
-        <li><a href="#">Patterns</a></li>
-        <li><a href="#">Usage</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contracts</a></li>
-      </ul>
+        ${27:<li><a href="${28:#}">${29:How it works}</a></li>}
+        ${30:<li><a href="${31:#}">${32:Patterns}</a></li>}
+        ${33:<li><a href="${34:#}">${35:Usage}</a></li>}
+        ${36:<li><a href="${37:#}">${38:Products}</a></li>}
+        ${39:<li><a href="${40:#}">${41:Contracts}</a></li>}
+      </ul>}
     </div>
 
     <div class="mdl-mega-footer__drop-down-section">
-      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer__heading">FAQ</h1>
+      ${42:<input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">${43:FAQ}</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">Questions</a></li>
-        <li><a href="#">Answers</a></li>
-        <li><a href="#">Contact us</a></li>
-      </ul>
+        ${44:<li><a href="${45:#}">${46:Questions}</a></li>}
+        ${47:<li><a href="${48:#}">${49:Answers}</a></li>}
+        ${50:<li><a href="${51:#}">${52:Contact us}</a></li>}
+      </ul>}
     </div>
 
   </div>

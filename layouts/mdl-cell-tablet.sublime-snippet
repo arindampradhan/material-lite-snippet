@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">6 (8 tablet)</div>
+<div class="mdl-cell mdl-cell--${1:6}-col mdl-cell--${2:8}-col-tablet">${3:6 (8 tablet)}</div>
 ]]></content>
     <tabTrigger>mdl-cell-tablet</tabTrigger>
 </snippet>

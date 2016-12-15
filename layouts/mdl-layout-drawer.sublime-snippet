@@ -3,16 +3,16 @@
 <!-- Fixed drawer, no header -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-    </nav>
-  </div>
+    ${1:<span class="mdl-layout-title">${2:Title}</span>
+    ${3:<nav class="mdl-navigation">
+      ${4:<a class="mdl-navigation__link" href="${5:#}">${6:Link}</a>}
+      ${7:<a class="mdl-navigation__link" href="${8:#}">${9:Link}</a>}
+      ${10:<a class="mdl-navigation__link" href="${11:#}">${12:Link}</a>}
+      ${13:<a class="mdl-navigation__link" href="${14:#}">${15:Link}</a>}
+    </nav>}
+  </div>}
   <main class="mdl-layout__content">
-    <div class="page-content"><!-- Your content goes here --></div>
+    <div class="page-content">${16:<!-- Your content goes here -->}</div>
   </main>
 </div>
 ]]></content>

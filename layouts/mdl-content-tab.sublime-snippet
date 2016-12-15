@@ -2,28 +2,27 @@
     <content><![CDATA[
 <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
   <div class="mdl-tabs__tab-bar">
-      <a href="#starks-panel" class="mdl-tabs__tab is-active">Starks</a>
-      <a href="#lannisters-panel" class="mdl-tabs__tab">Lannisters</a>
-      <a href="#targaryens-panel" class="mdl-tabs__tab">Targaryens</a>
+      <a href="#${1:starks-panel}" class="mdl-tabs__tab is-active">${2:Starks}</a>
+      <a href="#${3:lannisters-panel}" class="mdl-tabs__tab">${4:Lannisters}</a>
+      <a href="#${5:targaryens-panel}" class="mdl-tabs__tab">${6:Targaryens}</a>
   </div>
-
-  <div class="mdl-tabs__panel is-active" id="starks-panel">
-    <ul>
+  <div class="mdl-tabs__panel is-active" id="${1:starks-panel}">
+    ${7:<ul>
       <li>Eddard</li>
       <li>Catelyn</li>
       <li>Rickon</li>
-    </ul>
+    </ul>}
   </div>
-  <div class="mdl-tabs__panel" id="lannisters-panel">
-    <ul>
+  <div class="mdl-tabs__panel" id="${3:lannisters-panel}">
+    ${8:<ul>
       <li>Tywin</li>
-    </ul>
+    </ul>}
   </div>
-  <div class="mdl-tabs__panel" id="targaryens-panel">
-    <ul>
+  <div class="mdl-tabs__panel" id="${5:targaryens-panel}">
+    ${9:<ul>
       <li>Viserys</li>
       <li>Daenerys</li>
-    </ul>
+    </ul>}
   </div>
 </div>
 ]]></content>

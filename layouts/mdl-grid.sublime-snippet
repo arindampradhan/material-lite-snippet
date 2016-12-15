@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 <div class="mdl-grid">
-  <div class="mdl-cell mdl-cell--1-col">1</div>
-  <div class="mdl-cell mdl-cell--1-col">1</div>
-  <div class="mdl-cell mdl-cell--1-col">1</div>
+    ${1:<div class="mdl-cell mdl-cell--${2:1}-col">${3:1}</div>}
+    ${4:<div class="mdl-cell mdl-cell--${5:1}-col">${6:1}</div>}
+    ${7:<div class="mdl-cell mdl-cell--${8:1}-col">${9:1}</div>}
 </div>
 ]]></content>
-    <tabTrigger>mdl-cell-tablet</tabTrigger>
+    <tabTrigger>mdl-grid</tabTrigger>
 </snippet>

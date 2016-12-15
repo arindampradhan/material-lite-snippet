@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<div class="mdl-cell mdl-cell--1-col">1</div>
+<div class="mdl-cell mdl-cell--${1:1}-col">${2:1}</div>
 ]]></content>
     <tabTrigger>mdl-cell</tabTrigger>
 </snippet>

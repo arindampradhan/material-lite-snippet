@@ -2,19 +2,19 @@
     <content><![CDATA[
 <!-- Tabs -->
 <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-    <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
-    <a href="#scroll-tab-2" class="mdl-layout__tab">Tab 2</a>
-    <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
+    ${1:<a href="#${2:scroll-tab-1}" class="mdl-layout__tab is-active">${3:Tab 1}</a>}
+    ${4:<a href="#${5:scroll-tab-2}" class="mdl-layout__tab">${6:Tab 2}</a>}
+    ${7:<a href="#${8:scroll-tab-3}" class="mdl-layout__tab">${9:Tab 3}</a>}
 </div>
 <main class="mdl-layout__content">
-    <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
-        <div class="page-content"><!-- Your content goes here --></div>
+    <section class="mdl-layout__tab-panel is-active" id="${2:scroll-tab-1}">
+        <div class="page-content">${10:<!-- Your content goes here -->}</div>
     </section>
-    <section class="mdl-layout__tab-panel" id="scroll-tab-2">
-        <div class="page-content"><!-- Your content goes here --></div>
+    <section class="mdl-layout__tab-panel" id="${5:scroll-tab-2}">
+        <div class="page-content">${11:<!-- Your content goes here -->}</div>
     </section>
-    <section class="mdl-layout__tab-panel" id="scroll-tab-3">
-        <div class="page-content"><!-- Your content goes here --></div>
+    <section class="mdl-layout__tab-panel" id="${8:scroll-tab-3}">
+        <div class="page-content">${12:<!-- Your content goes here -->}</div>
     </section>
 </main>
 ]]></content>

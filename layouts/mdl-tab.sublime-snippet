@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-<a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
+<a href="#${1:scroll-tab-4}" class="mdl-layout__tab">${2:Tab 4}</a>
 
-<section class="mdl-layout__tab-panel" id="scroll-tab-4">
-    <div class="page-content"><!-- Your content goes here --></div>
+<section class="mdl-layout__tab-panel" id="${1:scroll-tab-4}">
+    <div class="page-content">${3:<!-- Your content goes here -->}</div>
 </section>
 ]]></content>
     <tabTrigger>mdl-tab</tabTrigger>

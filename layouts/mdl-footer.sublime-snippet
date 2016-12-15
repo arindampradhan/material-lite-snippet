@@ -2,10 +2,10 @@
     <content><![CDATA[
 <footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__left-section">
-    <div class="mdl-logo">Title</div>
+    <div class="mdl-logo">${1:Title}</div>
     <ul class="mdl-mini-footer__link-list">
-      <li><a href="#">Help</a></li>
-      <li><a href="#">Privacy & Terms</a></li>
+      <li><a href="${2:#}">"${3:Help}"</a></li>
+      <li><a href="${4:#}">${5:Privacy & Terms}</a></li>
     </ul>
   </div>
 </footer>

@@ -2,43 +2,44 @@
     <content><![CDATA[
 <!-- Transparent header -->
 <style>
-.demo-layout-transparent {
-  background: url('https://getmdl.io/assets/demos/transparent.jpg') center / cover;
+.${1:demo-layout}-transparent {
+  background: url('${2:https://getmdl.io/assets/demos/transparent.jpg}') center / cover;
 }
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
+.${1:demo-layout}-transparent .mdl-layout__header,
+.${1:demo-layout}-transparent .mdl-layout__drawer-button {
   /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
   color: white;
 }
 </style>
 
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+<div class="${1:demo-layout}-transparent mdl-layout mdl-js-layout">
   <header class="mdl-layout__header mdl-layout__header--transparent">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Title</span>
+      <span class="mdl-layout-title">${3:App Name}</span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
+        ${4:<a class="mdl-navigation__link" href="${5:#}">${6:Link}</a>}
+        ${7:<a class="mdl-navigation__link" href="${8:#}">${9:Link}</a>}
+        ${10:<a class="mdl-navigation__link" href="${11:#}">${12:Link}</a>}
+        ${13:<a class="mdl-navigation__link" href="${14:#}">${15:Link}</a>}
       </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
+    <span class="mdl-layout-title">${16:Title}</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
+      ${16:<a class="mdl-navigation__link" href="${17:#}">${18:Link}</a>}
+      ${19:<a class="mdl-navigation__link" href="${20:#}">${21:Link}</a>}
+      ${23:<a class="mdl-navigation__link" href="${24:#}">${25:Link}</a>}
+      ${26:<a class="mdl-navigation__link" href="${27:#}">${28:Link}</a>}
     </nav>
   </div>
   <main class="mdl-layout__content">
+    ${29:<!-- Your content goes here -->}
   </main>
 </div>
 ]]></content>
