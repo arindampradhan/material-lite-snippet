@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
-  <input type="checkbox" id="switch-2" class="mdl-switch__input">
-  <span class="mdl-switch__label"></span>
+<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="${1:switch-2}">
+  <input type="${2:checkbox}" id="${1:switch-2}" class="mdl-switch__input">
+  <span class="mdl-switch__label">${2:switch 2}</span>
 </label>
 ]]></content>
     <tabTrigger>mdl-switch</tabTrigger>

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-<label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-2">
-  <input type="checkbox" id="icon-toggle-2" class="mdl-icon-toggle__input">
-  <i class="mdl-icon-toggle__label material-icons">format_italic</i>
+<label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="${1:icon-toggle-2}">
+  <input type="checkbox" id="${1:icon-toggle-2}" class="mdl-icon-toggle__input">
+  <i class="mdl-icon-toggle__label material-icons">${2:format_italic}</i>
 </label>
 ]]></content>
     <tabTrigger>mdl-check-icon</tabTrigger>

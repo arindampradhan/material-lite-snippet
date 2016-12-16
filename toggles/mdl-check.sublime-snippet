@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
-  <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
-  <span class="mdl-checkbox__label">Checkbox</span>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="${1:checkbox-2}">
+  <input type="checkbox" id="${1:checkbox-2}" class="mdl-checkbox__input">
+  <span class="mdl-checkbox__label">${2:Checkbox}</span>
 </label>
 ]]></content>
     <tabTrigger>mdl-check</tabTrigger>
