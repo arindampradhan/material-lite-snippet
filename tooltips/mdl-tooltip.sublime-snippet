@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-<div id="tt1" class="icon material-icons">add</div>
-<div class="mdl-tooltip" for="tt1">
-Follow
+<div id="${1:tt1}" class="icon material-icons">${2:add}</div>
+<div class="mdl-tooltip" for="${1:tt1}">
+${3:Follow}
 </div>
 ]]></content>
     <tabTrigger>mdl-tooltip</tabTrigger>
