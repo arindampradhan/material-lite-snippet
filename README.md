@@ -1,7 +1,10 @@
 # Sublime Snippets For Material Design Lite
 
+A new styling framework material lite now comes to Sublime.
 
-## What's included
+Snippets for sublime.
+
+## Elements!
 - [badges](#badges)
 - [buttons](#buttons)
 - [cards](#cards)
@@ -23,212 +26,228 @@
 - [LICENSE](#LICENSE)
 
 
+## Installation
+
+There are 3 methods for installing this plugin.
+
+1. Search for "Material Lite Snippets" via the "Package Control: Install Packages" menu.
+**Note:** If you don't have Sublime Package Control installed, you can find out how to install it here [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
+
+2. Clone the repository into your Sublime Text 2/3 packages directory.
+`git clone https://github.com/arindam/sublime-material-lite.git
+
+3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
+**Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
+
+
 ### ``badges``
 ------------------
 
-| Component         |
-|-------------------|
-| mdl-badge-icon    |
-| mdl-badge-no-icon |
-| mdl-badge         |
+| Snippet code      |    Component  |
+|-------------------|----------------
+| mdl-badge-icon    | badge on icon |
+| mdl-badge-no-icon | badge on text |
+| mdl-badge         | simple badge  |
 
 ### ``buttons``
 ------------------
 
-| Component                       |
-|---------------------------------|
-| mdl-button-accent-ripple-raised |
-| mdl-button-accent-ripple        |
-| mdl-button-colored-ripple-raised|
-| mdl-button-colored-ripple       |
-| mdl-button-fab-colored-ripple   |
-| mdl-button-fab-colored          |
-| mdl-button-fab-ripple           |
-| mdl-button-fab-disable          |
-| mdl-button-fab                  |
-| mdl-button-ripple-raised        |
-| mdl-button-disable-raised       |
-| mdl-button-raised               |
-| mdl-button-ripple               |
-| mdl-button-disable              |
-| mdl-button                      |
+| Snippet code                    |    Component                                    |
+|---------------------------------|--------------------------------------------------
+| mdl-button-accent-ripple-raised | ripple effect , accent color , raised button    |
+| mdl-button-accent-ripple        | ripple effect , accent color                    |
+| mdl-button-colored-ripple-raised| ripple effect , primary color , raised button   |
+| mdl-button-colored-ripple       | ripple effect , primary color                   |
+| mdl-button-fab-colored-ripple   | fab button , primary color , ripple effect      |
+| mdl-button-fab-colored          | fab button , primary color                      |
+| mdl-button-fab-ripple           | fab button , ripple effect                      |
+| mdl-button-fab-disable          | fab button , disabled                           |
+| mdl-button-fab                  | fab button                                      |
+| mdl-button-ripple-raised        | ripple effect , raised button                   |
+| mdl-button-disable-raised       | disabled , raised button                        |
+| mdl-button-raised               | raised button                                   |
+| mdl-button-ripple               | ripple effect button                            |
+| mdl-button-disable              | disabled , raised  button                       |
+| mdl-button                      | simple button                                   |
 
 ### ``cards``
 ------------------
 
-| Component               |
-|-------------------------|
-| mdl-card-event-nostyle  |
-| mdl-card-event          |
-| mdl-card-square-nostyle |
-| mdl-card-square         |
-| mdl-card-wide-nostyle   |
-| mdl-card-wide           |
+| Snippet code            |    Component                                |
+|-------------------------|----------------------------------------------
+| mdl-card-event-nostyle  | card event with inline style                |
+| mdl-card-event          | card event with styling                     |
+| mdl-card-square-nostyle | card event square dimension inline style    |
+| mdl-card-square         | card event square dimension with styling    |
+| mdl-card-wide-nostyle   | card wide with inline style                 |
+| mdl-card-wide           | simple card                                 |
 
 ### ``chips``
 ------------------
 
-| Component             |
-|-----------------------|
-| mdl-chip-button       |
-| mdl-chip-contact      |
-| mdl-chip-deletable2   |
-| mdl-chip-deletable    |
-| mdl-chip              |
+| Snippet code          |    Component              |
+|-----------------------|----------------------------
+| mdl-chip-button       | Button Chip               |
+| mdl-chip-contact      | Contact Chip              |
+| mdl-chip-deletable2   | Deletable Contact Chip    |
+| mdl-chip-deletable    | Deletable Chip            |
+| mdl-chip              | Basic Chip                |
 
 ### ``dialogs``
 ------------------
 
-| Component             |
-|-----------------------|
-| mdl-dialog-full-script|
-| mdl-dialog-full       |
-| mdl-dialog-script     |
-| mdl-dialog            |
+| Snippet code          |    Component                                  |
+|-----------------------|------------------------------------------------
+| mdl-dialog-full-script| wide/full dialog with button onlick javascript|
+| mdl-dialog-full       | wide/full dialog                              |
+| mdl-dialog-script     | dialog with button onlick javascript          |
+| mdl-dialog            | simple dialog                                 |
 
 ### ``extras``
 ------------------
 
-| Component         |
-|-------------------|
-| mdl-link          |
-| mdl-script        |
-
+| Snippet code      |    Component                      |
+|-------------------|------------------------------------
+| mdl-link          | cdn link for stylesheets and font |
+| mdl-script        | cdn for material.js               |
+| mdl-cdn           | all cdn for material design lite  |
 
 ### ``layouts``
 ------------------
 
-| Component               |
-|-------------------------|
-| mdl-cell-phone          |
-| mdl-cell-tablet         |
-| mdl-cell                |
-| mdl-content-tab         |
-| mdl-footer-mega         |
-| mdl-footer              |
-| mdl-grid                |
-| mdl-layout-drawer       |
-| mdl-layout-fixed        |
-| mdl-layout-scroll       |
-| mdl-layout              |
-| mdl-layout-tab-fixed    |
-| mdl-layout-tab          |
-| mdl-layout-transparent  |
-| mdl-layout-waterfall    |
-| mdl-tabs                |
-| mdl-tab                 |
+| Snippet code            |    Component                                |
+|-------------------------|----------------------------------------------
+| mdl-cell-phone          | responsive grid column for phone            |
+| mdl-cell-tablet         | responsive grid column for tablet           |
+| mdl-cell                | responsive grid column for web              |
+| mdl-content-tab         | Content tabs                                |
+| mdl-footer-mega         | Mega footer                                 |
+| mdl-footer              | Basic Footer                                |
+| mdl-grid                | responsive grid layout                      |
+| mdl-layout-drawer       | Side drawer (Only)                          |
+| mdl-layout-fixed        | Fixed Side drawer                           |
+| mdl-layout-scroll       | Scrolling header                            |
+| mdl-layout              | Basic Layout:  Navbar + SideBar             |
+| mdl-layout-tab-fixed    | Fixed tabs                                  |
+| mdl-layout-tab          | Scrollable tabs                             |
+| mdl-layout-transparent  | Transparent header - with background image  |
+| mdl-layout-waterfall    | Waterfall header                            |
+| mdl-tabs                | Multiple Navbar tabs                        |
+| mdl-tab                 | Basic Navbar tab                            |
 
 
 ### ``lists``
 ------------------
 
-| Component         |
-|-------------------|
-| mdl-list-3line    |
-| mdl-list-actions  |
-| mdl-list-basic    |
-| mdl-list-controls |
-| mdl-list          |
-| mdl-list-2line    |
+| Snippet code      |    Component              |
+|-------------------|----------------------------
+| mdl-list-3line    | Three line (in content)   |
+| mdl-list-actions  | Avatars and actions       |
+| mdl-list-basic    | Basic list                |
+| mdl-list-controls | Avatars and controls      |
+| mdl-list          | Simple list               |
+| mdl-list-2line    | Two line (in content)     |
 
 ### ``loading``
 ------------------
 
-| Component                  |
-|----------------------------|
-| mdl-progress-buffer        |
-| mdl-progress-indeterminate |
-| mdl-progress               |
-| mdl-spinner                |
-| mdl-spinner-colored        |
+| Snippet code               |    Component                 |
+|----------------------------|-------------------------------
+| mdl-progress-buffer        | Buffering                    |
+| mdl-progress-indeterminate | Indeterminate                |
+| mdl-progress               | Basic Progress bar           |
+| mdl-spinner                | Basic Spinner                |
+| mdl-spinner-colored        | Basic Spinner Color(Primary) |
 
 ### ``menus``
 ------------------
 
-| Component         |
-|-------------------|
-| mdl-menu-left     |
-| mdl-menu-left-top |
-| mdl-menu-right    |
-| mdl-menu-right-top|
-| mdl-menu          |
+| Snippet code       |    Component                             |
+|--------------------|-------------------------------------------
+| mdl-menu-left      | Bottom left                              |
+| mdl-menu-left-top  | Top left                                 |
+| mdl-menu-right     | Bottom right                             |
+| mdl-menu-right-top | Top right                                |
+| mdl-menu           | default -> lower left (dropdown style)   |
 
 ### ``panel``
 ------------------
 
-| Component         |
-|-------------------|
-| mdl-panel         |
+| Snippet code      |    Component  |
+|-------------------|----------------
+| mdl-panel         | Panel element |
 
 
 ### ``sliders``
 ------------------
 
-| Component         |
-|-------------------|
-| mdl-slider        |
+| Snippet code      |    Component  |
+|-------------------|----------------
+| mdl-slider        | Basic slider  |
 
 ### ``snackbar``
 ------------------
 
-| Component           |
-|---------------------|
-| mdl-snackbar-script |
-| mdl-snackbar        |
-| mdl-toast-script    |
-| mdl-toast           |
+| Snippet code        |    Component            |
+|---------------------|--------------------------
+| mdl-snackbar-script | Snackbar with javascript|
+| mdl-snackbar        | Snackbar                |
+| mdl-toast-script    | Toast with javascript   |
+| mdl-toast           | Toast                   |
 
 ### ``tables``
 ------------------
 
-| Component            |
-|----------------------|
-| mdl-table-selectable |
-| mdl-table            |
+| Snippet code         |    Component           |
+|----------------------|-------------------------
+| mdl-table-selectable | Selectable Data table  |
+| mdl-table            | Basic Data table       |
 
 ### ``template``
 ------------------
 
-| Component                    |
-|------------------------------|
-| mdl-template-article         |
-| mdl-template-contact         |
-| mdl-template-login2          |
-| mdl-template-login           |
-| mdl-template-register        |
-| mdl-template-vertical-content|
-| mdl-template                 |
+| Snippet code                 |    Component                       |
+|------------------------------|-------------------------------------
+| mdl-template-article         | Template for article               |
+| mdl-template-contact         | Template for Contact               |
+| mdl-template-login2          | Template for login different style |
+| mdl-template-login           | Template for login                 |
+| mdl-template-register        | Template for registration          |
+| mdl-template-vertical-content| Template for vertical column       |
+| mdl-template                 | Template starter                   |
 
-### ``textfields``
+**NOTE:** New templates coming soon!.
+
+### ``textfields (Input Fields)``
 ------------------
 
-| Component          |
-|--------------------|
-| mdl-form-expand    |
-| mdl-form-float     |
-| mdl-form-multiline |
-| mdl-form-number    |
-| mdl-form           |
+| Snippet code       |    Component                 |
+|--------------------|-------------------------------
+| mdl-form-expand    | Expandable Textfield         |
+| mdl-form-float     | Text with floating label     |
+| mdl-form-multiline | Floating Multiline Textfield |
+| mdl-form-number    | Numeric input                |
+| mdl-form           | Simple Textfield             |
 
 ### ``toggles``
 ------------------
 
-| Component         |
-|-------------------|
-| mdl-check-icon    |
-| mdl-check-ripple  |
-| mdl-check         |
-| mdl-switch        |
-| mdl-radio-group   |
-| mdl-radio         |
+| Snippet code      |    Component          |
+|-------------------|-----------------------|
+| mdl-check-icon    | CheckBox              |
+| mdl-check-ripple  | CheckBox ripple effect|
+| mdl-check         | CheckBox              |
+| mdl-switch        | Switch                |
+| mdl-radio-group   | Radio                 |
+| mdl-radio         | Radio                 |
 
 ### ``tooltips``
 ------------------
 
-| Component         |
-|-------------------|
-| mdl-tooltip-large |
-| mdl-tooltip       |
+| Snippet code      |    Component  |
+|-------------------|----------------
+| mdl-tooltip-large | Large Tooltip |
+| mdl-tooltip       | Basic Tooltip |
 
 
 
