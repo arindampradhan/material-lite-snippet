@@ -31,6 +31,7 @@ Snippets for sublime.
 There are 3 methods for installing this plugin.
 
 1. Search for "Material Lite Snippets" via the "Package Control: Install Packages" menu.
+
 **Note:** If you don't have Sublime Package Control installed, you can find out how to install it here [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
 
 2. Clone the repository into your Sublime Text 2/3 packages directory.
@@ -249,7 +250,10 @@ There are 3 methods for installing this plugin.
 | mdl-tooltip-large | Large Tooltip |
 | mdl-tooltip       | Basic Tooltip |
 
+### ``Configurations``
+----------------------
 
+**Coming Soon!**
 
 ### ``LICENSE``
 ------------------
