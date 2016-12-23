@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/${1:1.2.1}/material.${2:indigo-pink}.min.css">
+<script defer src="https://code.getmdl.io/${1:1.2.1}/material.min.js"></script>
+]]></content>
+    <tabTrigger>mdl-cdn</tabTrigger>
+</snippet>
