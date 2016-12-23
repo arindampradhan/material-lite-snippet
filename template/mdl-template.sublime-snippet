@@ -32,7 +32,7 @@
 <body>
     <h1>Hello From Material Lite!</h1><hr/>
     ${2}
-    ${6}
+    ${7}
     <!-- javascript -->
     <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
 </body>
