@@ -2,7 +2,10 @@
 
 A new styling framework material lite now comes to Sublime.
 
-Snippets for sublime.
+![Snippets for sublime.](https://raw.githubusercontent.com/arindampradhan/material-lite-snippet/master/material-lite-snippet.gif)
+
+
+
 
 ## Elements!
 - [badges](#badges)
