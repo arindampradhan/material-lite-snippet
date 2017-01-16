@@ -1,0 +1,36 @@
+=============================================
+Material Lite Snippets
+=============================================
+
+ Features
+------------------------
+- badges
+- buttons
+- cards
+- chips
+- dialogs
+- extras
+- layouts
+- LICENSE
+- lists
+- loading
+- menus
+- panel
+- sliders
+- snackbar
+- tables
+- template
+- textfields
+- toggles
+- tooltips
+
+Documentation, examples & issue filing can be found here:
+https://github.com/arindampradhan/material-lite-snippet.git
+
+------------------------------
+Follow me on Twitter: @rrindam
+------------------------------
+
+
+
+
